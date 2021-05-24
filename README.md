@@ -1,2 +1,5 @@
 # mylecture
-공부
+
+*day7
+
+*day8
