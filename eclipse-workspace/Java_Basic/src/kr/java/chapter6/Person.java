@@ -8,11 +8,11 @@ public class Person {
 	String gender;
 	String blood;
 	
-	Person() {
+	/* Person() {
 		
-		this("이름 없음",1);	
+		this("이름없음",0,"","","직업없음");	// name 빠짐(오류)
 		
-	}
+	} */
 	
     Person(String name, int age) {
 		this.name = name;
@@ -29,19 +29,19 @@ public class Person {
 		}
 		
 		  public void play() {
-			  String paly = "";
-			  if(this.equals("의사")) {
+			  String play = "";
+			  if(this.job.equals("의사")) {
 				  System.out.println("의사입니다.");			  
-			  }else if(this.equals("초능력자")) {
+			  }else if(this.job.equals("초능력자")) {
 				  System.out.println("초능력자입니다.");
-			  }else if(this.equals("시간여행자")) {
-				  System.out.println("시간여행자입니다.");
-	}
-				  
-			  
-
+			  }else if(this.job.equals("시간여행자")) {
+				  System.out.println("시간여행자입니다.");				  
+	          }else
+	        	  play = "...";				 			  
 		}
-		
+		 
+		 
 }
+
 	
 
