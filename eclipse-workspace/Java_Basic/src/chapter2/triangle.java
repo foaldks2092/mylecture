@@ -10,7 +10,7 @@ public class triangle {
 		System.out.println("입력하시오: ");
 		int n = sc.nextInt();
 		for (int i = 0; i < n; i++) {
-			for (int j = n; j > i-1; j--) {
+			for (int j = n; j > i*1; j--) {
 				System.out.print(" ");				
 			}
 			for (int k = 0; k < i*2+1 ; k++) {
