@@ -13,8 +13,7 @@ public class InvertedPyramid {
 		   
 		   for (int i = n; i > 0 ; i--) {
 			   for (int j = i; j < n; j++) {
-				System.out.print(" ");
-				
+				System.out.print(" ");			
 			}
 			for (int k = i*2-1; k > 0; k--) {
 				System.out.print("*");

@@ -2,7 +2,7 @@ package p;
 
 public class Bus {
 	
-	private String name;
+	protected String name;
 	protected int number;
 	
 	public Bus(String name, int number) {
